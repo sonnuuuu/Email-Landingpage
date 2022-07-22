@@ -1,0 +1,172 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.mr-auto{
+    margin-right: auto;
+
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #666
+}
+a:hover {
+    color: black;
+}
+header{
+    background: white;
+    box-shadow: 0 0 4px 2px #ddd;
+    position: fixed;
+    width: 100%;
+}
+.clear{
+    height: 112px;
+}
+
+header nav{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+    border-bottom: 1px solid #ddd;
+}
+header img{
+    height: 30px;
+}
+.btn{
+    color:white;
+    background: blue;
+    padding: 0 24px;
+    line-height: 36px;
+    border-radius: 2px;
+    letter-spacing: 0.75px;
+    font-weight: 600;
+}
+.btn:hover{
+    color: white;
+    background: #174ea6;
+}
+.gmail-logo-text{
+    font-size: 24px;
+    color: #444;
+    margin-left: 8px;
+}
+
+footer{
+    margin: 32px 16px;
+    background-color: #f8f8f8;
+}
+
+footer img{
+    height: 36px;
+    
+}
+footer nav {
+    margin: 32px 16px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+
+}
+
+footer li{
+    margin-right: 16px;
+}
+
+footer select{
+    margin-left: 16px;
+    border: none;
+    background-color: #f8f8f8;
+    padding: 8px;
+    width: 160px;
+}
+footer nav{
+    color: #666;
+}
+
+.help-icon {
+    color: white;
+    font-weight: 600;
+    background: black;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 99px;
+    margin-right: 8px;
+}
+
+/* sections */
+
+section {
+    padding: 48px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1,h2{
+    font-size: 32px;
+    color: #222;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 42px;
+}
+
+p{
+    text-align: center;
+    margin: 12px;
+}
+
+.hero-section, 
+.avoid-suspicious-emails-section,
+.take-action-section,
+.never-drop-ball-section,
+.stay-organised-section
+{
+    background: #f8f8f8;
+}
+
+.get-gmail-section > * + *{
+    margin: 28px 0;
+}
+.get-gmail-section img{
+    height: 72px;
+
+}
+.get-gmail-section .btn{
+    line-height: 42px;
+}
+
+.experience-gmail-section img{
+    height: 48px;
+}
+
+.m4{
+    margin: 20px 40px;
+
+}
+.devices-section img{
+    width: 70%;
+}
+.hero-section img,
+.avoid-suspicious-emails-section img,
+.take-action-section img,
+.never-drop-ball-section img,
+.stay-organised-section img
+{
+    width: 70%;
+}
